@@ -2,7 +2,7 @@
 
 Course exit survey report generator for nssce
 
-### Usage
+### Usage (Python version 3.x is required)
 
 1. pip install -r requirements.txt
 2. python main.py path_to_questions_file path_to_data_file

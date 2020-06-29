@@ -94,7 +94,7 @@ def generate(pathToTemplate):
         student_name = student_name.split(" ")
         student_name = "".join(student_name)
 
-        fname = "{student_name}_{student_roll_no}.docx".format(
+        fname = "{student_roll_no}_{student_name}.docx".format(
             student_name=student_name, student_roll_no=datum["roll_no"])
 
         filePath = r"survey-reports/" + fname
